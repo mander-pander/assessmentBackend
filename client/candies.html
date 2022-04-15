@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="candyStyle.css">
+    <title>Also Back End Assessment</title>
+</head>
+<body>
+    <h1>Candy Inventory</h1>
+
+    <form>
+        <label for="type">What type of candy is it?</label>
+        <select name="type" id="type">
+            <option value="hard">Hard</option>
+            <option value="gum">Gum</option>
+            <option value="taffy">Taffy</option>
+        </select>
+
+        <input type="text"
+            id="flavor"
+            placeholder="What flavor is it?">
+
+        <input type="number"
+            id="qty"
+            placeholder="How many pieces?">
+
+        <button>Add Candy To Inventory</button>
+    </form>
+
+    <br>
+
+    <section id="candy-container"></section>
+
+    <a href="index.html">Compliments and Fortunes</a>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="candiesMain.js"></script>
+</body>
+</html>

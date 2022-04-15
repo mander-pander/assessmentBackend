@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "type": "hard",
+        "flavor": "rootbeer",
+        "qty": 150
+    },
+    {
+        "id": 2,
+        "type": "gum",
+        "flavor": "watermelon",
+        "qty": 212
+    },
+    {
+        "id": 3,
+        "type": "taffy",
+        "flavor": "strawberry",
+        "qty": 176
+    }
+]
